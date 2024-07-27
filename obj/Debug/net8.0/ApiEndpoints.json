@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "ValorAproximado.Controllers.GptAssistenteController",
+    "Method": "PostMessage",
+    "RelativePath": "gptAssistente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ValorAproximado.Controllers.GptAssistenteController",
+    "Method": "PostExecucao",
+    "RelativePath": "gptAssistente/execucao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "threadId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "ApiGptAssistent.Models.ExecucaoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ValorAproximado.Controllers.GptAssistenteController",
+    "Method": "GetMensagens",
+    "RelativePath": "gptAssistente/mensagens",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "threadId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ValorAproximado.Controllers.GptAssistenteController",
+    "Method": "Pergunta",
+    "RelativePath": "gptAssistente/pergunta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ApiGptAssistent.Models.PerguntaRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "Authorization",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Thread_Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Assistant_Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

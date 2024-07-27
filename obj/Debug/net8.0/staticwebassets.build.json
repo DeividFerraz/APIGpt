@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rmghorP8sAtSVQSZMrdGpCorsU56BLke6W/ChX9r4no=",
+  "Source": "ApiGptAssistent",
+  "BasePath": "_content/ApiGptAssistent",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
